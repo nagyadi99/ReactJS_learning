@@ -17,10 +17,10 @@ function App() {
       <UserGreeting />
       {/* <EventBind /> */}
       {/* <ParentComponent /> */}
-      {/* <FunctionClick />
+      <FunctionClick />
       <ClassClick />
-      <Counter></Counter>
-      /* <Greet name="Bruce" heroName="Batman">
+      <Counter></Counter>{" "}
+      <Greet name="Bruce" heroName="Batman">
         <p>This is children props</p>
       </Greet>
       <Greet name="Clark" heroName="Superman">
@@ -31,7 +31,7 @@ function App() {
       <Welcome name="Clark" heroName="Superman" />
       <Welcome name="Diana" heroName="Wonder Woman" />
       {<Hello />}
-      <Message /> */}
+      <Message />
     </div>
   );
 }
