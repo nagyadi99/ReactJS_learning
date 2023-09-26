@@ -17,11 +17,13 @@ import "./appStyle.css";
 import styles from "./appStyles.module.css";
 import Form from "./components/Form";
 import LifeCycleA from "./components/LifeCycleA";
+import FetchAPI from './components/FetchAPI'
 
 function App() {
   return (
     <div className="App">
       <LifeCycleA />
+	  <FetchAPI />
       {/* <Form /> */}
       {/* <h1 className="error">Error</h1>
       <h1 className={styles.success}>Success</h1>
