@@ -21,9 +21,9 @@ import LifeCycleA from "./components/LifeCycleA";
 function App() {
   return (
     <div className="App">
-      <LifeCycleA />
-      {/* <Form /> */}
-      {/* <h1 className="error">Error</h1>
+      {/* <LifeCycleA />
+      <Form />
+      <h1 className="error">Error</h1>
       <h1 className={styles.success}>Success</h1>
       <Inline />
       <StyleSheets primary={true} />
@@ -33,7 +33,7 @@ function App() {
       <ParentComponent />
       <FunctionClick />
       <ClassClick />
-      <Counter></Counter>{" "}
+      <Counter></Counter>{" "} */}
       <Greet name="Bruce" heroName="Batman">
         <p>This is children props</p>
       </Greet>
@@ -41,11 +41,11 @@ function App() {
         <button>Action</button>
       </Greet>
       <Greet name="Diana" heroName="Wonder Woman" />
-      <Welcome name="Bruce" heroName="Batman" />
+      {/* <Welcome name="Bruce" heroName="Batman" />
       <Welcome name="Clark" heroName="Superman" />
-      <Welcome name="Diana" heroName="Wonder Woman" />
-      {<Hello />}
-      <Message /> */}
+      <Welcome name="Diana" heroName="Wonder Woman" /> */}
+      {/* {<Hello />} */}
+      {/* <Message /> */}
     </div>
   );
 }
